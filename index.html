@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="chess_icon.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Chess</title>
+</head>
+<body>
+
+    <div class="chess_container">
+
+        <div class="top_row" id="top_border">
+            <div class="corner_cell" id="c1"></div>
+            <div class="top_border_cell"><span>A</span></div>
+            <div class="top_border_cell"><span>B</span></div>
+            <div class="top_border_cell"><span>C</span></div>
+            <div class="top_border_cell"><span>D</span></div>
+            <div class="top_border_cell"><span>E</span></div>
+            <div class="top_border_cell"><span>F</span></div>
+            <div class="top_border_cell"><span>G</span></div>
+            <div class="top_border_cell"><span>H</span></div>
+            <div class="corner_cell" id="c2"></div>
+        </div>
+
+        <div class="row" id="row1">
+            <div class="side_border"><span>1</span></div>
+            <div class="cell white" id="A1">
+                <img src="white_rook.svg" alt="" class="white_piece">
+            </div>
+            <div class="cell black" id="B1">
+                <img src="white_knight.svg" alt="" class="white_piece">
+            </div>
+            <div class="cell white" id="C1">
+                <img src="white_bisho.svg" alt="" class="white_piece">
+            </div>
+            <div class="cell black" id="D1">
+                <img src="white_king.svg" alt="" class="white_piece">
+            </div>
+            <div class="cell white" id="E1">
+                <img src="white_queen.svg" alt="" class="white_piece">
+            </div>
+            <div class="cell black" id="F1">
+                <img src="white_bisho.svg" alt="" class="white_piece">
+            </div>
+            <div class="cell white" id="G1">
+                <img src="white_knight.svg" alt="" class="white_piece">
+            </div>
+            <div class="cell black" id="H1">
+                <img src="white_rook.svg" alt="" class="white_piece">
+            </div>
+            <div class="side_border_right"><span>1</span></div>
+        </div>
+
+        <div class="row" id="row2">
+            <div class="side_border"><span>2</span></div>
+            <div class="cell black" id="A2">
+                    <img src="white_pawn.svg" alt="" class="pawn white_piece" id="wpc1">
+            </div>
+            <div class="cell white" id="B2">
+                <img src="white_pawn.svg" alt="" class="pawn white_piece" id="wpc2">
+            </div>
+            <div class="cell black" id="C2">
+                <img src="white_pawn.svg" alt="" class="pawn white_piece" class="white_piece" id="wpc3">
+            </div>
+            <div class="cell white" id="D2">
+                <img src="white_pawn.svg" alt="" class="pawn white_piece" id="wpc4">
+            </div>
+            <div class="cell black" id="E2">
+                <img src="white_pawn.svg" alt="" class="pawn white_piece" id="wpc5">
+            </div>
+            <div class="cell white" id="F2">
+                <img src="white_pawn.svg" alt="" class="pawn white_piece" id="wpc6">
+            </div>
+            <div class="cell black" id="G2">
+                <img src="white_pawn.svg" alt="" class="pawn white_piece" id="wpc7">
+            </div>
+            <div class="cell white" id="H2">
+                <img src="white_pawn.svg" alt="" class="pawn white_piece" id="wpc8">
+            </div>
+            <div class="side_border_right"><span>2</span></div>
+        </div>
+
+        <div class="row" id="row3">
+            <div class="side_border"><span>3</span></div>
+            <div class="cell white" id="A3"></div>
+            <div class="cell black" id="B3"></div>
+            <div class="cell white" id="C3"></div>
+            <div class="cell black" id="D3"></div>
+            <div class="cell white" id="E3"></div>
+            <div class="cell black" id="F3"></div>
+            <div class="cell white" id="G3"></div>
+            <div class="cell black" id="H3"></div>
+            <div class="side_border_right"><span>3</span></div>
+        </div>
+
+        <div class="row" id="row4">
+            <div class="side_border"><span>4</span></div>
+            <div class="cell black" id="A4"></div>
+            <div class="cell white" id="B4"></div>
+            <div class="cell black" id="C4"></div>
+            <div class="cell white" id="D4"></div>
+            <div class="cell black" id="E4"></div>
+            <div class="cell white" id="F4"></div>
+            <div class="cell black" id="G4"></div>
+            <div class="cell white" id="H4"></div>
+            <div class="side_border_right"><span>4</span></div>
+        </div>
+
+        <div class="row" id="row5">
+            <div class="side_border"><span>5</span></div>
+            <div class="cell white" id="A5"></div>
+            <div class="cell black" id="B5"></div>
+            <div class="cell white" id="C5"></div>
+            <div class="cell black" id="D5"></div>
+            <div class="cell white" id="E5"></div>
+            <div class="cell black" id="F5"></div>
+            <div class="cell white" id="G5"></div>
+            <div class="cell black" id="H5"></div>
+            <div class="side_border_right"><span>5</span></div>
+        </div>
+
+        <div class="row" id="row6">
+            <div class="side_border"><span>6</span></div>
+            <div class="cell black" id="A6"></div>
+            <div class="cell white" id="B6"></div>
+            <div class="cell black" id="C6"></div>
+            <div class="cell white" id="D6"></div>
+            <div class="cell black" id="E6"></div>
+            <div class="cell white" id="F6"></div>
+            <div class="cell black" id="G6"></div>
+            <div class="cell white" id="H6"></div>
+            <div class="side_border_right"><span>6</span></div>
+        </div>
+
+        <div class="row" id="row7">
+            <div class="side_border"><span>7</span></div>
+            <div class="cell white" id="A7">
+                <img src="black_pawn.svg" alt="" class="pawn">
+            </div>
+            <div class="cell black" id="B7">
+                <img src="black_pawn.svg" alt="" class="pawn">
+            </div>
+            <div class="cell white" id="C7">
+                <img src="black_pawn.svg" alt="" class="pawn">
+            </div>
+            <div class="cell black" id="D7">
+                <img src="black_pawn.svg" alt="" class="pawn">
+            </div>
+            <div class="cell white" id="E7">
+                <img src="black_pawn.svg" alt="" class="pawn">
+            </div>
+            <div class="cell black" id="F7">
+                <img src="black_pawn.svg" alt="" class="pawn">
+            </div>
+            <div class="cell white" id="G7">
+                <img src="black_pawn.svg" alt="" class="pawn">
+            </div>
+            <div class="cell black" id="H7">
+                <img src="black_pawn.svg" alt="" class="pawn">
+            </div>
+            <div class="side_border_right"><span>7</span></div>
+        </div>
+
+        <div class="row" id="row8">
+            <div class="side_border"><span>8</span></div>
+            <div class="cell black" id="A8">
+                <img src="black_rook.svg" alt="">
+            </div>
+            <div class="cell white" id="B8">
+                <img src="black_knight.svg" alt="">
+            </div>
+            <div class="cell black" id="C8">
+                <img src="black_bishop.svg" alt="">
+            </div>
+            <div class="cell white" id="D8">
+                <img src="black_queen.svg" alt="">
+            </div>
+            <div class="cell black" id="E8">
+                <img src="black_king.svg" alt="">
+            </div>
+            <div class="cell white" id="F8">
+                <img src="black_bishop.svg" alt="">
+            </div>
+            <div class="cell black" id="G8">
+                <img src="black_knight.svg" alt="">
+            </div>
+            <div class="cell white" id="H8">
+                <img src="black_rook.svg" alt="">
+            </div>
+            <div class="side_border_right"><span>8</span></div>
+        </div>
+
+        <div class="bottom_row" id="bottom_border">
+            <div class="corner_cell" id="c3"></div>
+            <div class="bottom_border_cell"><span>A</span></div>
+            <div class="bottom_border_cell"><span>B</span></div>
+            <div class="bottom_border_cell"><span>C</span></div>
+            <div class="bottom_border_cell"><span>D</span></div>
+            <div class="bottom_border_cell"><span>E</span></div>
+            <div class="bottom_border_cell"><span>F</span></div>
+            <div class="bottom_border_cell"><span>G</span></div>
+            <div class="bottom_border_cell"><span>H</span></div>
+            <div class="corner_cell" id="c4"></div>
+        </div>
+
+
+
+    </div>
+    <script src="script.js"></script>
+    <script src="pawn_rule.js"></script>
+</body>
+</html>
